@@ -39,7 +39,7 @@ class CountryDetails extends Component {
                     <Grid container>
                         <Grid container>
                             <Grid item xs={8}>
-                                <p>{this.state.loadedCountry.name}</p>
+                                <h3>{this.state.loadedCountry.name}</h3>
                                 <p><b>Capital:</b> {this.state.loadedCountry.capital}</p>
                                 <p><b>Population:</b> {this.state.loadedCountry.population}</p>
                                 <b>languages:</b>
