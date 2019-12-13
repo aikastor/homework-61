@@ -8,7 +8,6 @@ class CountryInfo extends Component {
     state = {
       countries: [],
         selectedCountry: '',
-        showCountryDetails: false
     };
     async componentDidMount() {
         const  response = await axios.get('all?fields=name');
